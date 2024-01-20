@@ -1,4 +1,6 @@
-# sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
+# https://www.waveshare.net/wiki/GamePi43
+
+# RPI 4 disable local pip: sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
 
 
 import os
@@ -11,6 +13,7 @@ import RPi.GPIO as GPIO
 
 # pip install pyautogui
 # sudo apt install scrot python3-tk python3-dev
+# For RPI 4 pyautogui work in "https://downloads.raspberrypi.com/raspbian_full/images/raspbian_full-2019-07-12/2019-07-10-raspbian-buster-full.zip"
 import pyautogui, sys
 
 # pip install python-uinput
@@ -19,6 +22,29 @@ import pyautogui, sys
 
 
 pyautogui.FAILSAFE = False
+
+"""
+https://toptechboy.com/understanding-raspberry-pi-4-gpio-pinouts/pinout-corrected-2/
+
+GCLK:
+    4
+
+I2C:
+    2 - SDA1
+    3 - SCL1
+
+SPI:
+    10 - MOSI
+    9  - MISO
+    11 - SCLK
+    8  - SEO_N
+    7  - SE1_N
+
+UART:
+    14 - TX
+    15 - RX
+
+"""
 
 CR_UP = 4  # ~
 CR_RIGHT=22
