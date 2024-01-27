@@ -1,0 +1,565 @@
+{    
+    "node": {
+        "name": "Raspberry Pico W board"
+    },
+
+    "web_auth": {
+        "user": "pico",
+        "password": "pico"
+    },
+
+    "wifi": {
+        "ssid": "",
+        "password": ""
+    },
+
+    "pins" : {
+
+        "1": {
+            "text": "",
+
+            "modes": [
+                "GP0",
+                "SPIO_RX",
+                "I2C0_SDA",
+                "UART0_TX"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "2": {
+            "text": "",
+
+            "modes": [
+                "GP1",
+                "SPIO_CSN",
+                "I2C0_SCL",
+                "UART0_RX"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "3": {
+            "text": "Gnd only",
+
+            "modes": [],
+            "mode": "GND",
+
+            "gp_states": [],
+            "gp_state": ""
+        },
+
+        "4": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "5": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "6": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "7": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "8": {
+            "text": "Gnd only",
+
+            "modes": [],
+            "mode": "GND",
+
+            "gp_states": [],
+            "gp_state": ""
+        },
+
+        "9": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "10": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "11": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "12": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "13": {
+            "text": "Gnd only",
+
+            "modes": [],
+            "mode": "GND",
+
+            "gp_states": [],
+            "gp_state": ""
+        },
+
+        "14": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "15": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "16": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "17": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "18": {
+            "text": "Gnd only",
+
+            "modes": [],
+            "mode": "GND",
+
+            "gp_states": [],
+            "gp_state": ""
+        },
+
+        "19": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "20": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "21": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "22": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "23": {
+            "text": "Gnd only",
+
+            "modes": [],
+            "mode": "GND",
+
+            "gp_states": [],
+            "gp_state": ""
+        },
+
+        "24": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "25": {
+            "text": "Built in LED",
+
+            "modes": [
+                "GP19",
+                "SPIO_TX",
+                "I2C1_SCL"
+            ],
+            "mode": "GP19",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": "down"
+        },
+
+        "26": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "27": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "28": {
+            "text": "Gnd only",
+
+            "modes": [],
+            "mode": "GND",
+
+            "gp_states": [],
+            "gp_state": ""
+        },
+
+        "29": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "30": {
+            "text": "",
+
+            "modes": [],
+            "mode": "RUN",
+
+            "gp_states": {},
+            "gp_state": ""
+        },
+
+        "31": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "32": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "33": {
+            "text": "",
+
+            "modes": [
+                "GND",
+                "AGND"
+            ],
+            "mode": "",
+
+            "gp_states": [],
+            "gp_state": ""
+        },
+
+        "34": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "35": {
+            "text": "",
+
+            "modes": [
+                "GP"
+            ],
+            "mode": "",
+
+            "gp_states": {
+                "up": 1,
+                "down": 0
+            },
+            "gp_state": ""
+        },
+
+        "36": {
+            "text": "3V3 (OUT) (+3.3V)",
+
+            "modes": [],
+            "mode": "+",
+
+            "gp_states": {},
+            "gp_state": ""
+        },
+
+        "37": {
+            "text": "3V3_EN",
+
+            "modes": [],
+            "mode": "+",
+
+            "gp_states": {},
+            "gp_state": ""
+        },
+
+        "38": {
+            "text": "Gnd only",
+
+            "modes": [],
+            "mode": "GND",
+
+            "gp_states": [],
+            "gp_state": ""
+        },
+
+        "39": {
+            "text": "VSYS (IN) range(1.8V, 5.5V)",
+
+            "modes": [],
+            "mode": "+",
+
+            "gp_states": {},
+            "gp_state": ""
+        },
+
+        "40": {
+            "text": "VBUS (micro-USB input voltage) (+5V)",
+
+            "modes": [],
+            "mode": "+",
+
+            "gp_states": {},
+            "gp_state": ""
+        }
+    }
+
+}
